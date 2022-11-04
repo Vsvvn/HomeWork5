@@ -89,7 +89,7 @@ public class Main {
                 System.out.println("Декабрь принадлежит к сезону зима.");
                 break;
             default:
-                System.out.println("Такого месяца не существует.");
+                System.out.println("Ошибка. Такого месяца не существует.");
         }
     }
 }
