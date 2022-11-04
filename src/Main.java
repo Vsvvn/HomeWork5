@@ -24,15 +24,12 @@ public class Main {
 
 
         System.out.println("Задача № 3");
-        short year = 2021;
+        short currentYear = 2021;
 
-        if ((year % 4) == 0) {
-            System.out.println(year + " год является високосным");
-        } else if ((year % 400) == 0) {
-            System.out.println(year + " год является високосным");
-        } else if ((year % 100) != 0) {
-            System.out.println(year + " год не является високосным");
-        }
+        if (currentYear % 4 == 0 && currentYear % 100 != 0 || currentYear % 400 == 0) {
+            System.out.println(currentYear + " год является високосным");
+        } else
+            System.out.println(currentYear + " год не является високосным");
 
 
         System.out.println("Задача № 4");
